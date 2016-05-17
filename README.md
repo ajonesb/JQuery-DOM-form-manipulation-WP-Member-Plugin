@@ -49,6 +49,10 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
 
 - This form will be closed later on but showing the code piece by piece as to how I got this working. Then comes the actual JQuery code first to add a new class to the form and remove the old .form class which was not easy to target. 
 
+<!--Javascript below to change layout of dynamic form which is all generated in php not html through the plug in files. -->
+ 
+ <script type="text/javascript">
+
  jQuery(document).ready(function($) {
                         /*Removes the form class from the registration form and adds this new class below to target better form*/                       
                             /*$('.div_text').addClass('text').removeClass('div_text');*/
@@ -63,7 +67,25 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
                                         $(this).next(".div_text").andSelf().wrapAll("<div class='registerseperator' />")
                                     });
                                 });
-  
+
+
+- After that process was done, you have the ending closing div's of the wrapper containers holding the form followed by the wordpress get sidebar, and get footer syntax. 
+
+
+</script>
+
+
+      </div> <!-registration container -->
+    </main><!-- #main -->
+  </div><!-- #primary -->
+
+ <?php get_sidebar(); ?>
+
+</div><!--Mid content clear fix -->
+
+<?php } ?>
+
+<?php get_footer(); ?>
 
                         
                         
