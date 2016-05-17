@@ -75,18 +75,6 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
 <!--</script>-->
 
 
-      </div> <!-registration container -->
-    </main><!-- #main -->
-  </div><!-- #primary -->
-
- <?php get_sidebar(); ?>
-
-</div><!--Mid content clear fix -->
-
-<?php } ?>
-
-<?php get_footer(); ?>
-
                         
                         
                         
