@@ -51,7 +51,7 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
 
 <!--Javascript below to change layout of dynamic form which is all generated in php not html through the plug in files. -->
  
- <script type="text/javascript">
+ <!--<script type="text/javascript"> COMMENT OUT SCRIPT TAGS FOR READ ME FILE PURPOSES-->
 
  jQuery(document).ready(function($) {
                         /*Removes the form class from the registration form and adds this new class below to target better form*/                       
@@ -72,7 +72,7 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
 - After that process was done, you have the ending closing div's of the wrapper containers holding the form followed by the wordpress get sidebar, and get footer syntax. 
 
 
-</script>
+<!--</script>-->
 
 
       </div> <!-registration container -->
