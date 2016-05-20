@@ -30,11 +30,7 @@ if(of_get_option('enable_parallax') == 1 && is_front_page() && get_option( 'show
 
       <div class="registrationpagecontainer">
                                         
-                              <?php echo do_shortcode('
-                              <h1 class="registrationtitle">Registro de nuevo Usuario</h1>
-                              <p style="text-align: center; margin-top: 20px;">Por favor llena estos datos.</p>                                                         
-                                  [wp-members page="register"]
-                              '); ?>
+                              <?php echo do_shortcode('[wp-members page="register"]'); ?>
          
 <!--Javascript below to change layout of dynamic form which is all generated in php not html through the plug in files. -->
  
