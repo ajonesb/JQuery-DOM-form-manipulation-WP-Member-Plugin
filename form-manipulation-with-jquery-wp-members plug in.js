@@ -1,4 +1,13 @@
 
+/*
+ * JQuery DOM manipulation for WP Member plug in 
+ *
+ * By Alan Jones - Front End Web Developer | UI Developer | Graphic Designer
+ * Visit website: http://www.limawebdesigner.com
+ */
+
+/*Beginning of Wordpress registration template for use with WP Member shortcode */
+
 <?php
 /*
 Template Name: Registracion Page
