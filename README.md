@@ -1,4 +1,4 @@
-# jquery-dom-form-manipulation summary of process performed
+WP Member Registration Form UI Manipulation with Simple JQuery Solution
 
 For the site Neuro Proteccion, JQuery was used to manipulate the theme based form provided by WP members plug in. The form is all based in dynamic php no html so in order to change the layout and structure of this form, JQuery was the most effective solution. 
 
